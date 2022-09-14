@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: rebeccapurple;
+  color: white;
+  text-align: center;
+  padding: 100px 0px;
+}
+.header-text {
+}
+header h1 {
+  font-size: 59px;
+  font-weight: normal;
+}
+header p {
+  font-size: 20px;
+  line-height: 1.9em;
+  font-weight: 300;
+}
+
+/* next=========================== */
+section {
+  padding: 100px 0px;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+.box {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  text-align: justify;
+  padding: 10px 40px;
+}
+.box-text {
+}
+.box-text h3 {
+  font-size: 24px;
+  line-height: 1.8;
+  font-weight: 600;
+  margin: 0px 0px 20px 0px;
+}
+.box-text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #181616;
+  margin-bottom: 20px;
+}
+.box-img {
+}
+.img-size {
+  height: 50px;
+  width: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 16px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  background: white;
+  color: rebeccapurple;
+  border: 2px solid rebeccapurple;
+}
+footer {
+  background-image: url(images/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  padding: 100px 0px;
+}
+.fot-box1 {
+  width: 35%;
+}
+.fot-box2 {
+  width: 20%;
+}
+.fot-box3 {
+  width: 25%;
+}
+.fot-box4 {
+  width: 20%;
+}
+.foot {
+  float: left;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+.foot img {
+  height: 50px;
+  width: 132px;
+  margin-bottom: 20px;
+}
+.foot h3 {
+  font-size: 24px;
+  line-height: 1.8;
+  font-weight: 600;
+  margin: 0px 0px 30px 0px;
+  color: rgb(5, 1, 1);
+}
+.foot p {
+  font-size: 20px;
+  line-height: 1.9em;
+  font-weight: 300;
+  color: rgb(53, 53, 53);
+}
+.foot ul {
+  list-style: none;
+}
+.foot ul li {
+  font-size: 20px;
+  line-height: 1.9em;
+  font-weight: 300;
+  color: rgb(53, 53, 53);
+}

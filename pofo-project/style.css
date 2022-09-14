@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  width: 100%;
+}
+header {
+  background: #f9f4f4;
+}
+header .container {
+  width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+}
+.logo img {
+  width: 50%;
+}
+nav {
+  width: 80%;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  list-style: none;
+  justify-content: flex-end;
+}
+nav ul li {
+  font-size: 20px;
+  padding: 16px;
+}
+nav ul li a {
+  font-family: "Roboto", sans-serif;
+
+  color: #232323;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 0;
+}
+nav ul li a:hover {
+  color: #6f6f6f6f;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+/* Next 2and part css================ */
+section {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.yellow {
+  background-image: url(images/portfolio-yellow.jpg);
+}
+
+.container {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+
+  align-items: baseline;
+  margin: auto;
+}
+.text {
+  padding-top: 360px;
+}
+.text span {
+  font-size: 12px;
+  color: black;
+  opacity: 0.5;
+}
+.text a {
+  display: block;
+  background: white;
+  font-size: 20px;
+  padding: 12px 26px;
+  text-decoration: none;
+  color: #232323;
+  margin-top: 16px;
+}
+.text a:hover {
+  color: #ff005c;
+}
+.text button {
+  padding: 3px 16px;
+  font-size: 14px;
+  border: none;
+  background: #232323;
+  color: white;
+  transition: 0.4s ease-in-outdd;
+}
+
+.text button:hover {
+  background: transparent;
+  color: #232323;
+  border: 1px solid #232323;
+}
+.blue {
+  background-image: url(images/portfolio-blue.jpg);
+}
+.red {
+  background-image: url(images/portfolio-pink.jpg);
+}
+.lime {
+  background-image: url(images/portfolio-lime.jpg);
+}
+.pink {
+  background-image: url(images/portfolio-red.jpg);
+}
+.orange {
+  background-image: url(images/portfolio-orange.jpg);
+}
+/* ======footer css ========= */
+footer .container {
+  width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  align-items: center;
+  padding: 40px 0px;
+}
+.fotter-logo {
+  width: 20%;
+}
+.fotter-logo img {
+  width: 50%;
+}
+.middle {
+  width: 60%;
+}
+.middle h6 {
+  text-align: center;
+  font-size: 12px;
+  color: #232323;
+}
+.fotter-icon {
+  width: 20%;
+}
+.fotter-icon ul {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 10px 16px;
+}
+.fotter-icon ul li {
+  list-style: none;
+  padding: 15px;
+}
+.fotter-icon ul li a {
+  text-decoration: none;
+  color: #232323;
+  transition: 0.4s ease-out;
+}
+.fotter-icon ul li a i {
+}
+.fotter-icon ul li a:hover {
+  color: red;
+  cursor: pointer;
+}
